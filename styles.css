@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    
+}
+.welcome{
+ 
+    height: 400px;
+    width: 100%;
+    border: 5px solid white;
+   background-color:  rgb(0, 0, 0);
+}
+.whoIam{
+    margin-top: 20px;
+    height: 400px;
+    border: 5px solid white;
+   background-color:  rgb(0, 0, 0);
+}
+.mybackground{
+    margin-top: 20px;
+    height: 500px;
+    border: 5px solid white;
+   background-color:  rgb(0, 0, 0);
+}
+.myprojects{
+    margin-top: 20px;
+    height: 500px;
+    border: 5px solid white;    
+   background-color:  rgb(0, 0, 0);
+}
+@media (min-width: 360px) and (max-width: 1024) {
+    .myprojects {
+        margin-top: 5px;
+        min-height: 800px; /* Consider using min-height instead of height */
+        border: 5px solid white;
+        background-color: rgb(0, 0, 0);
+    }
+}
